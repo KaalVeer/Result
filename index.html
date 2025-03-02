@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSEB Result 2025</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <img src="https://biharboardonlineresult.in/Seniorsecondary24/Content/images/bseb-logo.png" alt="BSEB Logo" class="bseb-logo">
+        <h1>Bihar School Examination Board, Patna</h1>
+    </div>
+
+    <div class="container">
+        <h2>INTERMEDIATE ANNUAL EXAMINATION 2025</h2>
+        
+        <label>Roll Code <span>*</span></label>
+        <input type="text" id="rollCode" placeholder="Enter Roll Code">
+
+        <label>Roll No <span>*</span></label>
+        <input type="text" id="rollNo" placeholder="Enter Roll No">
+
+        <label>Enter Total of: <span>*</span></label>
+        <div class="captcha">
+            <span id="num1">52</span> + <span id="num2">52</span> = 
+            <input type="text" id="captcha" placeholder="Enter Captcha">
+        </div>
+
+        <button id="viewBtn" onclick="checkForm()">View</button>
+        <button id="resetBtn" onclick="resetForm()">Reset</button>
+    </div>
+
+    <div class="popup" id="sharePopup">
+        <div class="popup-content">
+            <h3>Apna result dekhne ke liye is website ko 5 dosto ke saath share karein, phir result unlock hoga.</h3>
+            <button id="shareBtn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+                Share on WhatsApp
+            </button>
+        </div>
+    </div>
+</body>
+</html>
